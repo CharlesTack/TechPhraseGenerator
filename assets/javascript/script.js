@@ -22,3 +22,12 @@ function techPhrases() {
     var phrase = phrases1[random1] + " " + phrases2[random2] + " " + phrases3[random3] + " " + phrases4[random4] + " " + phrases5[random5] + " " + phrases6[random6] + " " + phrases7[random7] + " " + phrases8[random8] + " " + phrases9[random9];
     return phrase;
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    var button = document.querySelector('button');
+    var jargonDiv = document.getElementById('jargon');
+    button.addEventListener('click', function() {
+        var phrase = techPhrases();
+        jargonDiv.textContent = phrase; // Insert the generated phrase into the div
+    });
+});
