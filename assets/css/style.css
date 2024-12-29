@@ -1,0 +1,17 @@
+body {
+    background-image: url('../images/PhotoShopAIBG.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; /* Center the background image */
+    color: white; /* Change font color to white */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  button {
+    font-weight: 500;
+    width: 200px;
+    margin: 0 auto; /* Center align the button */
+  }
