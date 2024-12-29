@@ -26,8 +26,9 @@ function techPhrases() {
 document.addEventListener('DOMContentLoaded', function() {
     var button = document.querySelector('button');
     var jargonDiv = document.getElementById('jargon');
+    var jargonText = document.getElementById('jargon-text');
     button.addEventListener('click', function() {
         var phrase = techPhrases();
-        jargonDiv.textContent = phrase; // Insert the generated phrase into the div
+        jargonText.textContent = phrase; // Insert the generated phrase into the speech bubble
     });
 });
