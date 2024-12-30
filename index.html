@@ -13,28 +13,31 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
     <link rel="manifest" href="/assets/images/favicon/site.webmanifest">
 
+    <!-- Google Fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+        </style>
+
     <title>Tech Jargon Generator</title>
 </head>
 <body>
 
-    <h1>Tech Jargon Generator</h1>
-    <p id="instructions">Click the button below for your randomly generated Tech Sales & Marketing phrase!</p>
+    <h1 class="chakra-petch-bold">Tech Jargon Generator</h1>
+    <p class="chakra-petch-regular" id="instructions">Click the button below for your randomly generated Tech Sales & Marketing phrase!</p>
 
-    <button>Generate Jargon</button>
-
-    <!-- <div id="jargon"></div> -->
+    <button class="chakra-petch-bold">Generate Jargon</button>
 
     <div id="robot" class="container">
         <div class="row">
             <div id="head" class="col">
                 <img src="assets/images/CopilotrobotheadNoBG50pcPng.png" alt="AI-generated robot head" class="img-fluid">
             </div>
-            <div id="krypto-says" class="col">
+            <div id="krypto-says" class="col chakra-petch-regular">
                 <p>Krypto the android has gifted you this highly valuable tech phrase for your next campaign:</p>
             </div>
         </div>
     </div>
-    <div id="jargon-text"></div>
+    <div class="chakra-petch-semibold" id="jargon-text"></div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="assets/javascript/script.js"></script>
