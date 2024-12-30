@@ -21,23 +21,49 @@ body {
     margin-bottom: 2rem;
   }
 
-  #head {
-    margin-top: 7rem;
-    margin-bottom: 0rem;
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
-  #robo-phrase {
-    margin-top: 2rem;
-    margin-bottom: 0rem;
+  #instructions {
+    margin-bottom: 2rem;
+  }
+
+  #robot {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    text-align: center; /* Ensure the content is centered */
+  }
+
+  #krypto-says {
+    margin: auto;
+  }
+
+  #head {
+    padding-right: 0;
   }
 
   #jargon-text {
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    max-width: fit-content;
+    margin-top: 2rem;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .img-fluid {
+    max-width: 258px;
+    height: auto;
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto; /* Center the image */
+  }
+
+  @media (max-width: 377px) {
+    #krypto-says {
+        display: block;
+        width: 100%;
+        clear: both;
+    }
 }
