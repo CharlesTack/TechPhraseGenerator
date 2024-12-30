@@ -64,7 +64,7 @@ body {
   }
 
   #robot {
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     margin-bottom: 2rem;
     text-align: center; /* Ensure the content is centered */
   }
@@ -79,7 +79,7 @@ body {
   }
 
   #jargon-text {
-    margin-top: 2rem;
+    margin-top: 0;
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
